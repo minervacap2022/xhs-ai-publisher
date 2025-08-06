@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Configuration
+.env
+cookies
+*.json
+!personality.json.example
+!*.example.json
+
+# Logs
+*.log
+logs/
+app.log
+
+# Data Files
+memories.json
+posts.json
+knowledge.json
+understandings.json
+personality.json
+
+# Images
+*.png
+*.jpg
+*.jpeg
+!example_screenshot.png
+
+# MCP
+.mcp/
+mcp_config.json
